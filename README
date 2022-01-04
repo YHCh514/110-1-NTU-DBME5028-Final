@@ -1,0 +1,21 @@
+This is README file for final project of Application of Deep Learning in Medical Imaging
+Author: B07508008 陳郁翔 B07508009 李潔宜
+Team: FinishByDL
+Date:1/4
+=====
+SYNOPSIS:
+
+train.py --data $datapath
+inference.py --data $datapath
+======
+BEFORE YOU RUN:
+
+Please run the download.sh file at the same directory as that of inference.py
+or please download the checkpoint.pth file from the drive below,
+put it in the same directory, and unzip it.
+https://www.dropbox.com/s/34sdk2ddxvrtl65/checkpoint.zip
+======
+HOW TO RUN:
+
+python inference.py --data $datapath
+The prediction.csv file containing all predictions of testing queries will locate in $datapath/.
