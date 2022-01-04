@@ -7,6 +7,8 @@ SYNOPSIS:
 
 train.py --data $datapath
 inference.py --data $datapath
+Other filename.py files are all required to run the two above files.
+They contain the functions needed.
 ======
 BEFORE YOU RUN:
 
