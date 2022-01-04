@@ -14,7 +14,7 @@ BEFORE YOU RUN:
 
 Please run the download.sh file at the same directory as that of inference.py
 or please download the checkpoint.pth file from the drive below,
-put it in the same directory, and unzip it.
+put it in the same directory with the inference.py, and unzip it.
 https://www.dropbox.com/s/34sdk2ddxvrtl65/checkpoint.zip
 ======
 HOW TO RUN:
