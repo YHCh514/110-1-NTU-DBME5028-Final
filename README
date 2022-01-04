@@ -5,8 +5,8 @@ Date:1/4
 =====
 SYNOPSIS:
 
-train.py --data $datapath
-inference.py --data $datapath
+train.py -data $datapath
+inference.py -data $datapath
 Other filename.py files are all required to run the two above files.
 They contain the functions needed.
 ======
@@ -19,7 +19,7 @@ https://www.dropbox.com/s/34sdk2ddxvrtl65/checkpoint.zip
 ======
 HOW TO RUN:
 
-python inference.py --data $datapath
+python inference.py -data $datapath
 The prediction.csv file containing all predictions of testing queries will locate in $datapath/.
 =====
 AKNOLEDGEMENTS:
