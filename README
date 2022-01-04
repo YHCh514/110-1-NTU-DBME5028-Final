@@ -21,3 +21,8 @@ HOW TO RUN:
 
 python inference.py --data $datapath
 The prediction.csv file containing all predictions of testing queries will locate in $datapath/.
+=====
+AKNOLEDGEMENTS:
+
+The framework of the model in myModel.py and the augmentation functions in myTransform.py 
+refer to the code provided in https://github.com/hrlblab/SimTriplet.git
